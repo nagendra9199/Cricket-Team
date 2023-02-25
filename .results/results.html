@@ -1,0 +1,466 @@
+<html lang="en"><head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>ccbp test reporter</title>
+            <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+	        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/522ee478c4.js" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine.js"></script>
+            <script src="js/view.js"></script>
+        </head><body><div id="test-results">{
+  &quot;numFailedTestSuites&quot;: 1,
+  &quot;numFailedTests&quot;: 8,
+  &quot;numPassedTestSuites&quot;: 0,
+  &quot;numPassedTests&quot;: 1,
+  &quot;numPendingTestSuites&quot;: 0,
+  &quot;numPendingTests&quot;: 0,
+  &quot;numRuntimeErrorTestSuites&quot;: 0,
+  &quot;numTodoTests&quot;: 0,
+  &quot;numTotalTestSuites&quot;: 1,
+  &quot;numTotalTests&quot;: 9,
+  &quot;openHandles&quot;: [],
+  &quot;snapshot&quot;: {
+    &quot;added&quot;: 0,
+    &quot;didUpdate&quot;: false,
+    &quot;failure&quot;: false,
+    &quot;filesAdded&quot;: 0,
+    &quot;filesRemoved&quot;: 0,
+    &quot;filesRemovedList&quot;: [],
+    &quot;filesUnmatched&quot;: 0,
+    &quot;filesUpdated&quot;: 0,
+    &quot;matched&quot;: 0,
+    &quot;total&quot;: 0,
+    &quot;unchecked&quot;: 0,
+    &quot;uncheckedKeysByFile&quot;: [],
+    &quot;unmatched&quot;: 0,
+    &quot;updated&quot;: 0
+  },
+  &quot;startTime&quot;: 1677327587161,
+  &quot;success&quot;: false,
+  &quot;testResults&quot;: [
+    {
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 8,
+      &quot;numPassingTests&quot;: 1,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 1677327588647,
+        &quot;runtime&quot;: 954,
+        &quot;slow&quot;: false,
+        &quot;start&quot;: 1677327587693
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0,
+        &quot;uncheckedKeys&quot;: []
+      },
+      &quot;testFilePath&quot;: &quot;/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Cricket Team Database&quot;
+          ],
+          &quot;duration&quot;: 2,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Cricket Team DatabaseAn Express instance should be exported from the &#x27;app.js&#x27; file using the default export syntax&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;An Express instance should be exported from the &#x27;app.js&#x27; file using the default export syntax&quot;,
+          &quot;id&quot;: &quot;NJSCPXTWMS_TEST_1&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Cricket Team Database&quot;
+          ],
+          &quot;duration&quot;: 42,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;errno&quot;: 1,
+                &quot;code&quot;: &quot;SQLITE_ERROR&quot;
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: SQLITE_ERROR: no such table: cricketTeam&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: SQLITE_ERROR: no such table: cricketTeam&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: SQLITE_ERROR: no such table: cricketTeam&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Cricket Team DatabaseThe GET request with path &#x27;/players/&#x27; should return the list of all the players in the team as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request with path &#x27;/players/&#x27; should return the list of all the players in the team as a response&quot;,
+          &quot;id&quot;: &quot;NJSCPXTWMS_TEST_2&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Cricket Team Database&quot;
+          ],
+          &quot;duration&quot;: 34,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:111:8)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n----\n    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at localAssert (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at fn (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:156:5)\n    at Test.callback (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:902:3)\n    at IncomingMessage.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:1130:18)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1334:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:111:8)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n----\n    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at localAssert (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at fn (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:156:5)\n    at Test.callback (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:902:3)\n    at IncomingMessage.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:1130:18)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1334:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Cricket Team DatabaseThe GET request with path &#x27;/players/:playerId/&#x27; should return the details of a particular player in the team as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request with path &#x27;/players/:playerId/&#x27; should return the details of a particular player in the team as a response&quot;,
+          &quot;id&quot;: &quot;NJSCPXTWMS_TEST_3&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Cricket Team Database&quot;
+          ],
+          &quot;duration&quot;: 4,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:132:8)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n----\n    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at localAssert (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at fn (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:156:5)\n    at Test.callback (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:902:3)\n    at IncomingMessage.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:1130:18)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1334:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:132:8)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n----\n    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at localAssert (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at fn (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:156:5)\n    at Test.callback (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:902:3)\n    at IncomingMessage.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:1130:18)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1334:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Cricket Team DatabaseThe POST request with path &#x27;/players/&#x27; should return the &#x27;Player Added to Team&#x27; text as a response to the success of the request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/players/&#x27; should return the &#x27;Player Added to Team&#x27; text as a response to the success of the request&quot;,
+          &quot;id&quot;: &quot;NJSCPXTWMS_TEST_4&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Cricket Team Database&quot;
+          ],
+          &quot;duration&quot;: 4,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;matcherResult&quot;: {
+                  &quot;expected&quot;: {
+                    &quot;player_id&quot;: 12,
+                    &quot;player_name&quot;: &quot;Ramu&quot;,
+                    &quot;jersey_number&quot;: 17,
+                    &quot;role&quot;: &quot;Batsman&quot;
+                  },
+                  &quot;name&quot;: &quot;toEqual&quot;,
+                  &quot;pass&quot;: false
+                }
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expect(received).toEqual(expected) // deep equality\n\nExpected: {\&quot;jersey_number\&quot;: 17, \&quot;player_id\&quot;: 12, \&quot;player_name\&quot;: \&quot;Ramu\&quot;, \&quot;role\&quot;: \&quot;Batsman\&quot;}\nReceived: undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expect(received).toEqual(expected) // deep equality\n\nExpected: {\&quot;jersey_number\&quot;: 17, \&quot;player_id\&quot;: 12, \&quot;player_name\&quot;: \&quot;Ramu\&quot;, \&quot;role\&quot;: \&quot;Batsman\&quot;}\nReceived: undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:142:7)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expect(received).toEqual(expected) // deep equality\n\nExpected: {\&quot;jersey_number\&quot;: 17, \&quot;player_id\&quot;: 12, \&quot;player_name\&quot;: \&quot;Ramu\&quot;, \&quot;role\&quot;: \&quot;Batsman\&quot;}\nReceived: undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:142:7)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Cricket Team DatabaseThe database should be updated on the post request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The database should be updated on the post request&quot;,
+          &quot;id&quot;: &quot;NJSCPXTWMS_TEST_5&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Cricket Team Database&quot;
+          ],
+          &quot;duration&quot;: 2,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:159:8)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n----\n    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at localAssert (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at fn (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:156:5)\n    at Test.callback (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:902:3)\n    at IncomingMessage.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:1130:18)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1334:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:159:8)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n----\n    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at localAssert (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at fn (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:156:5)\n    at Test.callback (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:902:3)\n    at IncomingMessage.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:1130:18)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1334:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Cricket Team DatabaseThe PUT request with path &#x27;/players/:playerId/&#x27; should return &#x27;Player Details Updated&#x27; text as a response to the success of the request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The PUT request with path &#x27;/players/:playerId/&#x27; should return &#x27;Player Details Updated&#x27; text as a response to the success of the request&quot;,
+          &quot;id&quot;: &quot;NJSCPXTWMS_TEST_6&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Cricket Team Database&quot;
+          ],
+          &quot;duration&quot;: 6,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;matcherResult&quot;: {
+                  &quot;actual&quot;: {
+                    &quot;player_id&quot;: 4,
+                    &quot;player_name&quot;: &quot;Venkat&quot;,
+                    &quot;jersey_number&quot;: 19,
+                    &quot;role&quot;: &quot;Batsman&quot;
+                  },
+                  &quot;expected&quot;: {
+                    &quot;player_id&quot;: 4,
+                    &quot;player_name&quot;: &quot;Rahul&quot;,
+                    &quot;jersey_number&quot;: 7,
+                    &quot;role&quot;: &quot;Batsman&quot;
+                  },
+                  &quot;name&quot;: &quot;toEqual&quot;,
+                  &quot;pass&quot;: false
+                }
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expect(received).toEqual(expected) // deep equality\n\n- Expected  - 2\n+ Received  + 2\n\n  Object {\n-   \&quot;jersey_number\&quot;: 7,\n+   \&quot;jersey_number\&quot;: 19,\n    \&quot;player_id\&quot;: 4,\n-   \&quot;player_name\&quot;: \&quot;Rahul\&quot;,\n+   \&quot;player_name\&quot;: \&quot;Venkat\&quot;,\n    \&quot;role\&quot;: \&quot;Batsman\&quot;,\n  }&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expect(received).toEqual(expected) // deep equality\n\n- Expected  - 2\n+ Received  + 2\n\n  Object {\n-   \&quot;jersey_number\&quot;: 7,\n+   \&quot;jersey_number\&quot;: 19,\n    \&quot;player_id\&quot;: 4,\n-   \&quot;player_name\&quot;: \&quot;Rahul\&quot;,\n+   \&quot;player_name\&quot;: \&quot;Venkat\&quot;,\n    \&quot;role\&quot;: \&quot;Batsman\&quot;,\n  }\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:169:7)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expect(received).toEqual(expected) // deep equality\n\n- Expected  - 2\n+ Received  + 2\n\n  Object {\n-   \&quot;jersey_number\&quot;: 7,\n+   \&quot;jersey_number\&quot;: 19,\n    \&quot;player_id\&quot;: 4,\n-   \&quot;player_name\&quot;: \&quot;Rahul\&quot;,\n+   \&quot;player_name\&quot;: \&quot;Venkat\&quot;,\n    \&quot;role\&quot;: \&quot;Batsman\&quot;,\n  }\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:169:7)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Cricket Team DatabaseThe database should be updated on the put request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The database should be updated on the put request&quot;,
+          &quot;id&quot;: &quot;NJSCPXTWMS_TEST_7&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Cricket Team Database&quot;
+          ],
+          &quot;duration&quot;: 4,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:181:8)\n----\n    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at localAssert (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at fn (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:156:5)\n    at Test.callback (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:902:3)\n    at IncomingMessage.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:1130:18)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1334:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:181:8)\n----\n    at Test.Object.&lt;anonymous&gt;.Test._assertStatus (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n    at Test.Object.&lt;anonymous&gt;.Test._assertFunction (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n    at Test.Object.&lt;anonymous&gt;.Test.assert (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n    at localAssert (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n    at fn (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:156:5)\n    at Test.callback (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:902:3)\n    at IncomingMessage.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:1130:18)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1334:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Cricket Team DatabaseThe DELETE request with path &#x27;/players/:playerId/&#x27; should return &#x27;Player Removed&#x27; text as a response to the success of the request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The DELETE request with path &#x27;/players/:playerId/&#x27; should return &#x27;Player Removed&#x27; text as a response to the success of the request&quot;,
+          &quot;id&quot;: &quot;NJSCPXTWMS_TEST_8&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Cricket Team Database&quot;
+          ],
+          &quot;duration&quot;: 4,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;matcherResult&quot;: {
+                  &quot;actual&quot;: [
+                    {
+                      &quot;player_id&quot;: 1,
+                      &quot;player_name&quot;: &quot;Vasanth&quot;,
+                      &quot;jersey_number&quot;: 5,
+                      &quot;role&quot;: &quot;All-rounder&quot;
+                    },
+                    {
+                      &quot;player_id&quot;: 2,
+                      &quot;player_name&quot;: &quot;Trivi&quot;,
+                      &quot;jersey_number&quot;: 3,
+                      &quot;role&quot;: &quot;All-rounder&quot;
+                    },
+                    {
+                      &quot;player_id&quot;: 3,
+                      &quot;player_name&quot;: &quot;Babu&quot;,
+                      &quot;jersey_number&quot;: 18,
+                      &quot;role&quot;: &quot;Batsman&quot;
+                    },
+                    {
+                      &quot;player_id&quot;: 4,
+                      &quot;player_name&quot;: &quot;Venkat&quot;,
+                      &quot;jersey_number&quot;: 19,
+                      &quot;role&quot;: &quot;Batsman&quot;
+                    },
+                    {
+                      &quot;player_id&quot;: 5,
+                      &quot;player_name&quot;: &quot;Vamsi&quot;,
+                      &quot;jersey_number&quot;: 2,
+                      &quot;role&quot;: &quot;Batsman&quot;
+                    },
+                    {
+                      &quot;player_id&quot;: 6,
+                      &quot;player_name&quot;: &quot;Hari&quot;,
+                      &quot;jersey_number&quot;: 22,
+                      &quot;role&quot;: &quot;Bowler&quot;
+                    },
+                    {
+                      &quot;player_id&quot;: 7,
+                      &quot;player_name&quot;: &quot;Harish&quot;,
+                      &quot;jersey_number&quot;: 7,
+                      &quot;role&quot;: &quot;Batsman&quot;
+                    },
+                    {
+                      &quot;player_id&quot;: 8,
+                      &quot;player_name&quot;: &quot;Chanakya&quot;,
+                      &quot;jersey_number&quot;: 1,
+                      &quot;role&quot;: &quot;Bowler&quot;
+                    },
+                    {
+                      &quot;player_id&quot;: 9,
+                      &quot;player_name&quot;: &quot;Vinod&quot;,
+                      &quot;jersey_number&quot;: 8,
+                      &quot;role&quot;: &quot;Wicket-keeper&quot;
+                    },
+                    {
+                      &quot;player_id&quot;: 10,
+                      &quot;player_name&quot;: &quot;Gowtham&quot;,
+                      &quot;jersey_number&quot;: 6,
+                      &quot;role&quot;: &quot;Bowler&quot;
+                    },
+                    {
+                      &quot;player_id&quot;: 11,
+                      &quot;player_name&quot;: &quot;Varshith&quot;,
+                      &quot;jersey_number&quot;: 11,
+                      &quot;role&quot;: &quot;All-rounder&quot;
+                    }
+                  ],
+                  &quot;expected&quot;: [
+                    {
+                      &quot;player_id&quot;: 1,
+                      &quot;player_name&quot;: &quot;Vasanth&quot;,
+                      &quot;jersey_number&quot;: 5,
+                      &quot;role&quot;: &quot;All-rounder&quot;
+                    },
+                    {
+                      &quot;player_id&quot;: 2,
+                      &quot;player_name&quot;: &quot;Trivi&quot;,
+                      &quot;jersey_number&quot;: 3,
+                      &quot;role&quot;: &quot;All-rounder&quot;
+                    },
+                    {
+                      &quot;player_id&quot;: 3,
+                      &quot;player_name&quot;: &quot;Babu&quot;,
+                      &quot;jersey_number&quot;: 18,
+                      &quot;role&quot;: &quot;Batsman&quot;
+                    },
+                    {
+                      &quot;player_id&quot;: 4,
+                      &quot;player_name&quot;: &quot;Rahul&quot;,
+                      &quot;jersey_number&quot;: 7,
+                      &quot;role&quot;: &quot;Batsman&quot;
+                    },
+                    {
+                      &quot;player_id&quot;: 5,
+                      &quot;player_name&quot;: &quot;Vamsi&quot;,
+                      &quot;jersey_number&quot;: 2,
+                      &quot;role&quot;: &quot;Batsman&quot;
+                    },
+                    {
+                      &quot;player_id&quot;: 6,
+                      &quot;player_name&quot;: &quot;Hari&quot;,
+                      &quot;jersey_number&quot;: 22,
+                      &quot;role&quot;: &quot;Bowler&quot;
+                    },
+                    {
+                      &quot;player_id&quot;: 7,
+                      &quot;player_name&quot;: &quot;Harish&quot;,
+                      &quot;jersey_number&quot;: 7,
+                      &quot;role&quot;: &quot;Batsman&quot;
+                    },
+                    {
+                      &quot;player_id&quot;: 8,
+                      &quot;player_name&quot;: &quot;Chanakya&quot;,
+                      &quot;jersey_number&quot;: 1,
+                      &quot;role&quot;: &quot;Bowler&quot;
+                    },
+                    {
+                      &quot;player_id&quot;: 9,
+                      &quot;player_name&quot;: &quot;Vinod&quot;,
+                      &quot;jersey_number&quot;: 8,
+                      &quot;role&quot;: &quot;Wicket-keeper&quot;
+                    },
+                    {
+                      &quot;player_id&quot;: 10,
+                      &quot;player_name&quot;: &quot;Gowtham&quot;,
+                      &quot;jersey_number&quot;: 6,
+                      &quot;role&quot;: &quot;Bowler&quot;
+                    },
+                    {
+                      &quot;player_id&quot;: 11,
+                      &quot;player_name&quot;: &quot;Varshith&quot;,
+                      &quot;jersey_number&quot;: 11,
+                      &quot;role&quot;: &quot;All-rounder&quot;
+                    }
+                  ],
+                  &quot;name&quot;: &quot;toEqual&quot;,
+                  &quot;pass&quot;: false
+                }
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expect(received).toEqual(expected) // deep equality\n\n- Expected  - 2\n+ Received  + 2\n\n@@ -16,13 +16,13 @@\n      \&quot;player_id\&quot;: 3,\n      \&quot;player_name\&quot;: \&quot;Babu\&quot;,\n      \&quot;role\&quot;: \&quot;Batsman\&quot;,\n    },\n    Object {\n-     \&quot;jersey_number\&quot;: 7,\n+     \&quot;jersey_number\&quot;: 19,\n      \&quot;player_id\&quot;: 4,\n-     \&quot;player_name\&quot;: \&quot;Rahul\&quot;,\n+     \&quot;player_name\&quot;: \&quot;Venkat\&quot;,\n      \&quot;role\&quot;: \&quot;Batsman\&quot;,\n    },\n    Object {\n      \&quot;jersey_number\&quot;: 2,\n      \&quot;player_id\&quot;: 5,&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expect(received).toEqual(expected) // deep equality\n\n- Expected  - 2\n+ Received  + 2\n\n@@ -16,13 +16,13 @@\n      \&quot;player_id\&quot;: 3,\n      \&quot;player_name\&quot;: \&quot;Babu\&quot;,\n      \&quot;role\&quot;: \&quot;Batsman\&quot;,\n    },\n    Object {\n-     \&quot;jersey_number\&quot;: 7,\n+     \&quot;jersey_number\&quot;: 19,\n      \&quot;player_id\&quot;: 4,\n-     \&quot;player_name\&quot;: \&quot;Rahul\&quot;,\n+     \&quot;player_name\&quot;: \&quot;Venkat\&quot;,\n      \&quot;role\&quot;: \&quot;Batsman\&quot;,\n    },\n    Object {\n      \&quot;jersey_number\&quot;: 2,\n      \&quot;player_id\&quot;: 5,\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:188:62)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expect(received).toEqual(expected) // deep equality\n\n- Expected  - 2\n+ Received  + 2\n\n@@ -16,13 +16,13 @@\n      \&quot;player_id\&quot;: 3,\n      \&quot;player_name\&quot;: \&quot;Babu\&quot;,\n      \&quot;role\&quot;: \&quot;Batsman\&quot;,\n    },\n    Object {\n-     \&quot;jersey_number\&quot;: 7,\n+     \&quot;jersey_number\&quot;: 19,\n      \&quot;player_id\&quot;: 4,\n-     \&quot;player_name\&quot;: \&quot;Rahul\&quot;,\n+     \&quot;player_name\&quot;: \&quot;Venkat\&quot;,\n      \&quot;role\&quot;: \&quot;Batsman\&quot;,\n    },\n    Object {\n      \&quot;jersey_number\&quot;: 2,\n      \&quot;player_id\&quot;: 5,\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:188:62)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Cricket Team DatabaseThe database should be updated on the delete request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The database should be updated on the delete request&quot;,
+          &quot;id&quot;: &quot;NJSCPXTWMS_TEST_9&quot;
+        }
+      ],
+      &quot;failureMessage&quot;: &quot;  ● :::NJSCPXTWMS_TEST_SUITE_1:::Tests for Cricket Team Database › :::NJSCPXTWMS_TEST_2:::The GET request with path &#x27;/players/&#x27; should return the list of all the players in the team as a response\n\n    SQLITE_ERROR: no such table: cricketTeam\n\n\n\n  ● :::NJSCPXTWMS_TEST_SUITE_1:::Tests for Cricket Team Database › :::NJSCPXTWMS_TEST_3:::The GET request with path &#x27;/players/:playerId/&#x27; should return the details of a particular player in the team as a response\n\n    expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n\n      109 |     appInstance\n      110 |       .get(\&quot;/players/3/\&quot;)\n    &gt; 111 |       .expect(200)\n          |        ^\n      112 |       .expect({\n      113 |         playerId: 3,\n      114 |         playerName: \&quot;Babu\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:111:8)\n      ----\n      at Test.Object.&lt;anonymous&gt;.Test._assertStatus (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n      at node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n      at Test.Object.&lt;anonymous&gt;.Test._assertFunction (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n      at Test.Object.&lt;anonymous&gt;.Test.assert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n      at localAssert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n      at fn (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:156:5)\n      at Test.callback (node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:902:3)\n      at IncomingMessage.&lt;anonymous&gt; (node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:1130:18)\n\n  ● :::NJSCPXTWMS_TEST_SUITE_1:::Tests for Cricket Team Database › :::NJSCPXTWMS_TEST_4:::The POST request with path &#x27;/players/&#x27; should return the &#x27;Player Added to Team&#x27; text as a response to the success of the request\n\n    expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n\n      130 |         role: \&quot;Batsman\&quot;,\n      131 |       })\n    &gt; 132 |       .expect(200)\n          |        ^\n      133 |       .expect(\&quot;Player Added to Team\&quot;)\n      134 |       .then((error, response) =&gt; {\n      135 |         done();\n\n      at Object.&lt;anonymous&gt; (index.test.js:132:8)\n      ----\n      at Test.Object.&lt;anonymous&gt;.Test._assertStatus (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n      at node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n      at Test.Object.&lt;anonymous&gt;.Test._assertFunction (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n      at Test.Object.&lt;anonymous&gt;.Test.assert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n      at localAssert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n      at fn (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:156:5)\n      at Test.callback (node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:902:3)\n      at IncomingMessage.&lt;anonymous&gt; (node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:1130:18)\n\n  ● :::NJSCPXTWMS_TEST_SUITE_1:::Tests for Cricket Team Database › :::NJSCPXTWMS_TEST_5:::The database should be updated on the post request\n\n    expect(received).toEqual(expected) // deep equality\n\n    Expected: {\&quot;jersey_number\&quot;: 17, \&quot;player_id\&quot;: 12, \&quot;player_name\&quot;: \&quot;Ramu\&quot;, \&quot;role\&quot;: \&quot;Batsman\&quot;}\n    Received: undefined\n\n      140 |     expect(\n      141 |       await database.get(`SELECT * FROM cricket_team WHERE player_id=12`)\n    &gt; 142 |     ).toEqual({\n          |       ^\n      143 |       player_id: 12,\n      144 |       player_name: \&quot;Ramu\&quot;,\n      145 |       jersey_number: 17,\n\n      at Object.&lt;anonymous&gt; (index.test.js:142:7)\n\n  ● :::NJSCPXTWMS_TEST_SUITE_1:::Tests for Cricket Team Database › :::NJSCPXTWMS_TEST_6:::The PUT request with path &#x27;/players/:playerId/&#x27; should return &#x27;Player Details Updated&#x27; text as a response to the success of the request\n\n    expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n\n      157 |         role: \&quot;Batsman\&quot;,\n      158 |       })\n    &gt; 159 |       .expect(200)\n          |        ^\n      160 |       .expect(\&quot;Player Details Updated\&quot;)\n      161 |       .then((error, response) =&gt; {\n      162 |         done();\n\n      at Object.&lt;anonymous&gt; (index.test.js:159:8)\n      ----\n      at Test.Object.&lt;anonymous&gt;.Test._assertStatus (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n      at node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n      at Test.Object.&lt;anonymous&gt;.Test._assertFunction (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n      at Test.Object.&lt;anonymous&gt;.Test.assert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n      at localAssert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n      at fn (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:156:5)\n      at Test.callback (node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:902:3)\n      at IncomingMessage.&lt;anonymous&gt; (node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:1130:18)\n\n  ● :::NJSCPXTWMS_TEST_SUITE_1:::Tests for Cricket Team Database › :::NJSCPXTWMS_TEST_7:::The database should be updated on the put request\n\n    expect(received).toEqual(expected) // deep equality\n\n    - Expected  - 2\n    + Received  + 2\n\n      Object {\n    -   \&quot;jersey_number\&quot;: 7,\n    +   \&quot;jersey_number\&quot;: 19,\n        \&quot;player_id\&quot;: 4,\n    -   \&quot;player_name\&quot;: \&quot;Rahul\&quot;,\n    +   \&quot;player_name\&quot;: \&quot;Venkat\&quot;,\n        \&quot;role\&quot;: \&quot;Batsman\&quot;,\n      }\n\n      167 |     expect(\n      168 |       await database.get(`SELECT * FROM cricket_team WHERE player_id=4`)\n    &gt; 169 |     ).toEqual({\n          |       ^\n      170 |       player_id: 4,\n      171 |       player_name: \&quot;Rahul\&quot;,\n      172 |       jersey_number: 7,\n\n      at Object.&lt;anonymous&gt; (index.test.js:169:7)\n\n  ● :::NJSCPXTWMS_TEST_SUITE_1:::Tests for Cricket Team Database › :::NJSCPXTWMS_TEST_8:::The DELETE request with path &#x27;/players/:playerId/&#x27; should return &#x27;Player Removed&#x27; text as a response to the success of the request\n\n    expected 200 \&quot;OK\&quot;, got 404 \&quot;Not Found\&quot;\n\n      179 |     appInstance\n      180 |       .delete(\&quot;/players/12/\&quot;)\n    &gt; 181 |       .expect(200)\n          |        ^\n      182 |       .expect(\&quot;Player Removed\&quot;)\n      183 |       .then((error, response) =&gt; {\n      184 |         done();\n\n      at Object.&lt;anonymous&gt; (index.test.js:181:8)\n      ----\n      at Test.Object.&lt;anonymous&gt;.Test._assertStatus (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:296:12)\n      at node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:80:15\n      at Test.Object.&lt;anonymous&gt;.Test._assertFunction (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:311:11)\n      at Test.Object.&lt;anonymous&gt;.Test.assert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:201:21)\n      at localAssert (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:159:12)\n      at fn (node_modules/.pnpm/supertest@6.1.3/node_modules/supertest/lib/test.js:156:5)\n      at Test.callback (node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:902:3)\n      at IncomingMessage.&lt;anonymous&gt; (node_modules/.pnpm/superagent@6.1.0/node_modules/superagent/src/node/index.js:1130:18)\n\n  ● :::NJSCPXTWMS_TEST_SUITE_1:::Tests for Cricket Team Database › :::NJSCPXTWMS_TEST_9:::The database should be updated on the delete request\n\n    expect(received).toEqual(expected) // deep equality\n\n    - Expected  - 2\n    + Received  + 2\n\n    @@ -16,13 +16,13 @@\n          \&quot;player_id\&quot;: 3,\n          \&quot;player_name\&quot;: \&quot;Babu\&quot;,\n          \&quot;role\&quot;: \&quot;Batsman\&quot;,\n        },\n        Object {\n    -     \&quot;jersey_number\&quot;: 7,\n    +     \&quot;jersey_number\&quot;: 19,\n          \&quot;player_id\&quot;: 4,\n    -     \&quot;player_name\&quot;: \&quot;Rahul\&quot;,\n    +     \&quot;player_name\&quot;: \&quot;Venkat\&quot;,\n          \&quot;role\&quot;: \&quot;Batsman\&quot;,\n        },\n        Object {\n          \&quot;jersey_number\&quot;: 2,\n          \&quot;player_id\&quot;: 5,\n\n      186 |   });\n      187 |   it(\&quot;:::NJSCPXTWMS_TEST_9:::The database should be updated on the delete request\&quot;, async () =&gt; {\n    &gt; 188 |     expect(await database.all(`SELECT * FROM cricket_team`)).toEqual([\n          |                                                              ^\n      189 |       {\n      190 |         player_id: 1,\n      191 |         player_name: \&quot;Vasanth\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:188:62)\n&quot;
+    }
+  ],
+  &quot;wasInterrupted&quot;: false
+}</div></body></html>
